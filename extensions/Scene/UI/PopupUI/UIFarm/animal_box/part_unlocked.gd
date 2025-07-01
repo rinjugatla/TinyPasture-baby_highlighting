@@ -11,7 +11,7 @@ func _ready() -> void:
 
 ## 赤ちゃん用アイコン用ノードを作成
 func _create_baby_icon_node() -> void:
-	var has_baby_icon_node = get_node(BABY_ICON_NODE_NAME)
+	var has_baby_icon_node = has_node(BABY_ICON_NODE_NAME)
 	if has_baby_icon_node:
 		return
 	
